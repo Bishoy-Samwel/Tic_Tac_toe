@@ -1,4 +1,3 @@
-require 'terminal-table'
 module Table
   def create_table
     Terminal::Table.new do |t|
