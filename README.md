@@ -60,12 +60,28 @@ The **./lib** folder contains subsidiary files that set up all of the classes an
 
 In addition to the above, the repo also contains .rubocop.yml for linting.
 
+## Tests
+
+- Open Terminal
+
+- Install RSpec on your system by running:
+ 
+```
+gem install rspec
+```
+
+- Run the tests with the command:
+
+```
+rspec 
+```
 
 ## ✒️  Author <a name = "author"></a>
 
-👤 **Erez Friemagor**
-- Github: [@erezfree29](https://github.com/erezfree29)
-- Linkedin: [Erez Friemagor](https://www.linkedin.com/in/mert-gunduz-875280202/)
+👤 **Bishoy Samwel Faheem**
+- GitHub: [@Bishoy Samwel Faheem](https://github.com/Bishoy-Samwel)
+- LinkedIn: [Bishoy Samwel](https://www.linkedin.com/in/bishoy-samwuel-ss/)
+- Twitter: [@bisho](https://twitter.com/BishoFaheem15)
 
 👤 **Mert Gündüz**
 - Github: [@mgunduz1](https://github.com/mgunduz1)

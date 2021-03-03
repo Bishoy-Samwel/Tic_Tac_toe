@@ -3,42 +3,42 @@
 require_relative '../lib/table'
 class Board
   include Table
-  attr_reader :square
+  attr_accessor :square
 
   def initialize
     @square = [1, 2, 3, 4, 5, 6, 7, 8, 9]
   end
 
   def condition1
-    @square[0] == @square[1] && @square[0] == @square[2] ? true : false
+    @square[0] == @square[1] && @square[0] == @square[2]
   end
 
   def condition2
-    @square[0] == @square[3] && @square[0] == @square[6] ? true : false
+    @square[0] == @square[3] && @square[0] == @square[6]
   end
 
   def condition3
-    @square[0] == @square[4] && @square[0] == @square[8] ? true : false
+    @square[0] == @square[4] && @square[0] == @square[8]
   end
 
   def condition4
-    @square[1] == @square[4] && @square[1] == @square[7] ? true : false
+    @square[1] == @square[4] && @square[1] == @square[7]
   end
 
   def condition5
-    @square[2] == @square[5] && @square[2] == @square[8] ? true : false
+    @square[2] == @square[5] && @square[2] == @square[8]
   end
 
   def condition6
-    @square[2] == @square[4] && @square[2] == @square[6] ? true : false
+    @square[2] == @square[4] && @square[2] == @square[6]
   end
 
   def condition7
-    @square[3] == @square[4] && @square[3] == @square[5] ? true : false
+    @square[3] == @square[4] && @square[3] == @square[5]
   end
 
   def condition8
-    @square[6] == @square[7] && @square[6] == @square[8] ? true : false
+    @square[6] == @square[7] && @square[6] == @square[8]
   end
 
   def victory
