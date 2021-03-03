@@ -1,4 +1,5 @@
 AllCops:
+  NewCops: enable
   Exclude:
     - "Guardfile"
     - "Rakefile"
@@ -15,7 +16,7 @@ Metrics/ClassLength:
   Max: 150
 Metrics/BlockLength:
   IgnoredMethods: ['describe']
-  Max: 45
+  Max: 30
 
 
 Style/Documentation:
